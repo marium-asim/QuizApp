@@ -1,0 +1,78 @@
+.active
+{
+  background-color: purple;
+  color: white;
+  padding: 7px;
+  font-size: 30px;
+ }
+ body{
+     background-image: url('bg2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+#main
+{
+    width: 1100px;
+    border: 5px purple dashed;
+    padding: 30px;
+    position: absolute;
+    left: 100px;
+    top: 20px
+}
+#timer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 70px;
+   padding: 0px 10px 0px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+}
+#title
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: powderblue;
+    padding:5px;
+    border-radius: 40px;
+}
+p{
+    background-color: powderblue;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 40px;
+}
+#score
+{
+   
+    position: absolute;
+    right: 220px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    height: 80px;
+}
+#next{
+    font-size: 25px;
+    padding: 5px;
+    background-color: powderblue;
+    position: relative;
+    left: 45%;
+    width: 100px;
+}
+#start
+{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
